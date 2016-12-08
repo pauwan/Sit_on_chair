@@ -1,2 +1,2 @@
 # Sit_on_chair
-Sit_on_chair_warszaty_HTML
+Sit_on_chair_first_workshops_HTML_in_bootcamp_CodersLab
