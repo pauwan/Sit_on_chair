@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* font: 10px/8px     tak zapisuje sie interlinie*/
 .main {
     /*border: 1px solid red;*/
     margin: 0 auto;
@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    margin: 15px 15px;
+    margin: 5px 5px;
     float: left;
     color: white;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ header {
 
 nav {
     float: right;
-    margin: 10px auto;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ nav ul li {
     margin: 1px auto;
     color: white;
     position: absolute;
-    top: 20px;
+    top: 40px;
     font-size: 12px;
 }
 
@@ -233,7 +233,7 @@ a {
 }
 
 .boxes>div{
-          width: 250px;
+          width: 290px;
           height: 400px;
           margin: 0 5px;
           display: inline-block;
@@ -388,49 +388,149 @@ a {
 }
 /*box 3*/
 .box3{
-          border: 2px solid lightgrey;
-          background-color: white;
+  border: 2px solid lightgrey;
+  background-color: white;
 }
 .box3 span{
-          color: #1cbfb3;
+  color: #1cbfb3;
 }
 .box3 .circleBig {
-          background-color: white;
-          border: 2px solid darkgrey;
+  background-color: white;
+  border: 2px solid darkgrey;
 }
 
 .box3 .circleSmall {
           background-color: darkgrey;
 }
 .box3 .circlePrice{
-          color: darkgrey;
-          border: 2px solid darkgrey;
-          background-color: white;
+  color: darkgrey;
+  border: 2px solid darkgrey;
+  background-color: white;
 }
 .box3 ul li:nth-of-type(odd){
-          margin: 0;
-          padding:5px 0;
-          color:grey;
-          background-color: darkgrey;
+  margin: 0;
+  padding:5px 0;
+  color:grey;
+  background-color: darkgrey;
 }
 .box3 ul li:nth-of-type(even){
-          margin: 0;
-          padding:5px 0;
-          color:grey;
-          background-color: lightgrey;
+  margin: 0;
+  padding:5px 0;
+  color:grey;
+  background-color: lightgrey;
 }
 .box3 .button{
-          color: white;
+  color: white;
+}
+
+div.wrapFoot{
+  width: 920px;
+  height: 400px;
 }
 
 .banerContact{
-          border-bottom: 7px solid #1cbfb3;
-          width: 290px;
-          margin: 30px 0 70px 0;
-          text-align: left;
-          text-transform: uppercase;
+  border-bottom: 7px solid #1cbfb3;
+  width: 290px;
+  margin: 30px 0 30px 0;
+  text-align: left;
+  text-transform: uppercase;
 }
 
+.wrapForm, .wrapContact{
+width: 430px;
+height: 300px;
+float:left;
+margin: auto 10px;
 
+}
+form{
+  margin: 10px auto;
+  display: block;
+}
+fieldset{
+    border: white;
+}
+label{
+  margin: 10px  auto;
+  display: block;
+}
+input, textarea{
+  width: 400px;
+  height: 50px;
+  border: 1px solid #1cbfb3;
+}
+textarea{
+  height: 150px;
+}
+/*nie wiem czemu ponizej nie dziala*/
+input.plac [placeholder]  {
+    font-size: 24;
+    color: lightgrey;
+}
+
+.wrapContact img{
+  width: 200px;
+  margin-left: 30px;
+}
+
+  form.formal{
+    width: 350px;
+    margin-left: 10px;
+  }
+
+  .formal .chec {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px;
+  }
+
+input[type="checkbox"]{
+  background-color: white;
+  }
+
+input[type="checkbox"]:checked{
+  border: red;
+  background-color: white;
+}
+
+  .formal label{
+    color: lightgrey;
+  }
+
+
+  input.butt {
+    width: 320px;
+    height: 50px;
+    margin: 5px;
+    background-color: #1cbfb3;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+div.footEnd{
+  width: 920px;
+  height: 100px;
+
+}
+div.images, .footEnd p {
+  display: inline;
+}
+.footEnd p:first-of-type{
+  font-size: 14px;
+  color: lightgrey;
+  margin-right: 150px;
+}
+.images img{
+  width: 25px;
+  height: 25px;
+}
+.sit{
+margin: 0 100px;
+color: grey;
+}
+.sit span{
+font-weight: bolder;
+}
 
 /* color: #1cbfb3; */

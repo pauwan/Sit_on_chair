@@ -152,32 +152,40 @@
 <footer>
     <div class="main">
         <div class="banerContact">kontakt</div>
-       <form>
-                 <fieldset>
-                           <label for="imie" type = "text" name ="imie" placeholder = "Imię" value =""></label>
-                           <label for="email" type = "text" name = "email" placeholder = "email"></label>
-                           <label for="textarea" placeholder = "Wiadomośc"></label>
-                           <textarea rows="8" cols="40"></textarea>
-                           </fieldset>
-
-                            <!-- <img src="images/red_chair.png" /> -->
-                          <form>
-                                     <fieldset>
-                                               <label for="submit" type="submit" value = "WWYŚLIJ" name="submit"></label>
-                                               <label for="checkbox" value = "remember">Zgadzam się na przetwarzani danych osobowych</label>
-                                     </fieldset>
-                           </form>
-
-
+    <div class="wrapFoot">
+      <div class="wrapForm">
+       <form class="personal">
+         <fieldset>
+           <label for="imie"></label>
+          <input class="plac" id="imie" type = "text" name ="imie" placeholder = "Imię" value ="" />
+           <label for="email"></label>
+           <input class="plac" id="email" for="email" type = "text" name = "email" placeholder = "email"/>
+           <label class="placeholder" for="textarea" ></label>
+           <textarea rows="8" cols="40" placeholder = "Wiadomośc"></textarea>
+         </fieldset>
        </form>
+      </div>
+      <div class="wrapContact">
+        <img src="images/red_chair.png" />
+        <form class="formal">
+          <label><input class = "chec" type="checkbox"  checked="checked">Zgadzam się na przetwarzanie danych osobowych </label>
+            <label><input class = "butt" for="submit" type="submit" value = "WYŚLIJ" name="submit"></label>
+        </form>
+        </div>
+    </div>
+      <div class="footEnd">
+        <p>Coopyright 2014 | All Rights Reserved. Sit On Chair </p>
+        <div class="images">
+
+        <img src="images/flickr.png" />
+        <img src="images/vimeo.png" />
+        <img src="images/pinterest.png" />
+        <img src="images/twitter.png" />
+          </div>
+        <p class="sit">.SIT <span>ON </span>CHAIR</p>
+      </div>
 
     </div>
-
-
 </footer>
-
-
-
 </body>
-
 </html>
